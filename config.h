@@ -46,7 +46,7 @@
 #define RVC_HIDDEN      YELLOW
 #define RVC_EXEC        GREEN
 #define RVC_REG         DEFAULT
-#define RVC_DIR         DEFAULT
+#define RVC_DIR         BLUE
 #define RVC_CHR         MAGENTA
 #define RVC_BLK         MAGENTA
 #define RVC_FIFO        BLUE
