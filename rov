@@ -1,0 +1,6 @@
+#!/bin/sh
+ROVER_SRC=$(dirname $(realpath $0))
+export ROVER_PAGER="bat --paging always"
+export ROVER_OPEN="xdg-open"
+export MANPATH=$ROVER_SRC:$MANPATH
+$ROVER_SRC/rover
